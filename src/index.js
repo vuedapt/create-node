@@ -3,9 +3,11 @@
 const { parseArgs } = require('./utils/args');
 const { promptUser } = require('./prompts');
 const ProjectGenerator = require('./generators/projectGenerator');
+const { showBanner } = require('./utils/banner');
 
 async function init() {
-  console.log('\nInitializing Node.js application...\n');
+  showBanner();
+  console.log('');
 
   // Parse command line arguments
   const { defaultProjectName, baseDir, useCurrentDir } = parseArgs();
