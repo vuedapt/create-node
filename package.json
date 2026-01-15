@@ -1,0 +1,25 @@
+{
+  "name": "@vuedapt/create-node",
+  "version": "1.0.0",
+  "description": "Initialize a new Node.js application",
+  "main": "src/index.js",
+  "bin": {
+    "create-node": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "init",
+    "create",
+    "scaffold",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6"
+  }
+}
